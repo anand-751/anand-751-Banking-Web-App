@@ -31,14 +31,16 @@ A secure, full-stack **online banking platform** that allows users to manage acc
 
 ## Setup Instructions
 1️⃣ **Clone the Repo**
-git clone [https://github.com/yourusername/Banking-WebApp.git](https://github.com/anand-751/anand-751-Banking-Web-App.git)
+git clone [https://github.com/yourusername/Banking-WebApp.git](https://github.com/anand-751/anand-751-Banking-Web-App.git) -> 
 cd Banking-WebApp
 
-2️⃣ **Install Backend Dependencies**
+2️⃣ **Install Backend Dependencies** : 
 cd server -> 
 npm install
 
-3️⃣ **Create .env** file in /server
+3️⃣ **Create .env** file in /server : 
+JWT_SECRET=your_jwt_secret , 
+ PORT=5000
 
 4️⃣ **Start the Server** : 
 npm start
