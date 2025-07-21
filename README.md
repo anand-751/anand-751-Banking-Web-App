@@ -35,19 +35,19 @@ git clone [https://github.com/yourusername/Banking-WebApp.git](https://github.co
 cd Banking-WebApp
 
 2️⃣ **Install Backend Dependencies**
-cd server
+cd server -> 
 npm install
 
 3️⃣ **Create .env** file in /server
 
-4️⃣ **Start the Server**
+4️⃣ **Start the Server** : 
 npm start
 
-5️⃣ **start frontend** server
-cd client
+5️⃣ **start frontend** server : 
+cd client ->
 npm run dev
 
-🔒 **Security Highlights**
+🔒 **Security Highlights** : 
 1. Passwords hashed with bcrypt
 2. JWT for token-based auth, stored securely
 3. Role-based middleware for protected routes
